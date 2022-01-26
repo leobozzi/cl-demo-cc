@@ -204,7 +204,7 @@
     ],
 
     'git-repos': [
-        'https://github.com/leobozzi/cl-ultranet.git',
+        'https://github.com/leobozzi/cl-demo-cc.git',
         'https://github.com/leobozzi/odoo-addons-utils bit-odoo-addons-utils',
         'https://github.com/leobozzi/odoo-custom bit-odoo-custom',
         'git@github.com:vangrow/ndm.git -b 13.0',
