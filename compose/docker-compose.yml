@@ -1,4 +1,4 @@
-# Compose file odoo Ultranet v13.0 + https
+# Compose file odoo Demo CC v13.0 + https
 # Ojo hay que crear el /odoo_ar/traefik/acme.json y ponerle chmod 600
 # Version 2021-11-11
 #################################################################################
@@ -34,7 +34,7 @@ services:
 
   postgres:
     image: postgres:11.1-alpine
-    container_name: pg-ultranet
+    container_name: pg-demo
     restart: unless-stopped
     environment:
       - POSTGRES_USER=odoo
